@@ -11,11 +11,10 @@ function App() {
   ];
 
 
-
   return (
     <div>
       <h2>Hello World!</h2>
-      <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItem>
+      <ExpenseItem expenses={expenses}></ExpenseItem>
     </div>
   );
 }
